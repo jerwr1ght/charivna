@@ -1,0 +1,176 @@
+@charset "utf-8";
+body{
+	width: auto;
+    height: auto;
+    background-image: url(background.jpg);
+}
+
+.top{
+    width: 1349px;
+    height: 50px;
+    background-color: #FFE4B5;
+}
+.bottom{
+    height: 40px;
+    width: auto;
+    background-color: #4682B4;
+    text-align: center;
+    position: relative;
+    padding-top: 20px;
+    color: white;
+    font-family: "Segoe ui";
+}
+
+
+li {
+    list-style-type: none; 
+    display: inline; 
+}
+
+
+a{
+    text-decoration: none;
+    font-family: "Gabriola";
+    font-size: 22px;
+}
+
+.first_a{
+    color: white;
+    margin-right: 5px;
+    margin-left: 5px;  
+}
+
+
+.button{
+    width:auto;
+    height: 50px;
+    background-color: #4E4E4E;
+    text-align: center;
+    float: left;
+    line-height: 45px;
+}
+
+.second_a{
+    color: #4E4E4E;
+    margin-right: 5px;
+    margin-left: 5px; 
+
+}
+.button2{
+    width: auto;
+    height: 10px;
+    text-align: center;
+    float: left;
+    line-height: 45px;
+    transition: 0.5s;
+    
+}
+
+.button2:hover .second_a{
+    color: white;
+
+}
+
+.button2:hover{
+    background-color: #4E4E4E;
+    height: 50px;
+}
+
+.regions_h1{
+    color: #4E4E4E;
+    font-family: "Gabriola";
+    text-align: center;
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+   }
+
+button{
+    width: 310px;
+    height: 165px;
+    border-style: none;
+    background-size: cover;
+    margin-left: 25px;
+    transition-property: opacity, box-shadow;
+    transition-duration: 0.5s, 0.5s;
+    opacity: 0.5;
+    box-shadow: 0 0 10px black;
+    border: 5px solid white;
+    outline: none;
+}
+
+.buttons_up{
+    width: 1349px;
+    height: 180px;
+    display: inline-flex;
+}
+
+.region_1{
+    background-image: url(https://spzh.news/mediafiles/iblock/73a/thumbs/73a96d44f19507224cde45180d4eb6df-tmb-720x411xfill.jpg);
+    margin-left: 17px;
+}
+
+.region_2{
+    background-image: url(https://wiki.cuspu.edu.ua/images/5/57/699140e9.jpg);
+}
+
+.region_3{
+    background-image: url(https://ua-travel.info/fotos/galery/112/1330.jpg);
+}
+
+.region_4{
+    background-image: url(https://ua.igotoworld.com/frontend/webcontent/images/tours/1935198_800x600_supercoolpics_06_16072011154443.jpg);
+
+}
+
+.region_5{
+    background-image: url(https://ua.igotoworld.com/frontend/webcontent/images/tours/1936302_800x600_original%281%29.jpg);
+    margin-left: 17px;
+}
+.region_6{
+    background-image: url(https://ua-travel.info/fotos/galery/116/6838.jpg);
+}
+
+.region_7{
+    background-image: url(https://www.ukraine-is.com/wp-content/uploads/2016/10/%D0%93%D0%BE%D1%80%D0%B0-%D0%9F%D0%B8%D0%B2%D0%B8%D1%85%D0%B0.jpg);
+}
+
+.region_8{
+    background-image: url(https://www.polissya.net/images/stories/Lystopad12/tunnel_love.jpg);
+}
+
+.region_1:hover, .region_2:hover, .region_3:hover, .region_4:hover, .region_5:hover, .region_6:hover, .region_7:hover, .region_8:hover{
+    box-shadow: 0 0 10px red;
+    opacity: 1;
+}
+
+p {
+    font-family: "Gabriola";
+    font-size: 22px;
+}
+
+
+.buttons_down{
+    width: 1349px;
+    height: 180px;
+    display: inline-flex;
+    margin-bottom: 70px;
+}
+
+
+.region_name{
+    color: white;
+    font-size: 25px;
+    text-shadow: 2px 2px 2px black, 0 0 1em black;
+    display: none;
+}
+
+.region_1:hover .region_name, .region_2:hover .region_name, .region_3:hover .region_name, .region_4:hover .region_name, .region_5:hover .region_name, .region_6:hover .region_name, .region_7:hover .region_name, .region_8:hover .region_name{
+    display: block;
+}

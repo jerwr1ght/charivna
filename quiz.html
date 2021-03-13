@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Як добре ви знаєте Україну?</title>
+    <link rel="stylesheet" href="css/styles1.css">
+    <link rel="shrotcut icon" href="ukraine.png" type="image/x-icon">
+    <script src="js/script.js"></script>
+</head>
+<body>
+<div class="top">
+    <ul>
+    <div class="button2"><li>
+        <a href="index.html" class="second_a">Головна</a>
+    </li></div>
+    <div class="button2"><li>
+        <a href="region.html" class="second_a">Області</a>
+    </li></div>
+    <div class="button"><li>
+        <a href="quiz.html" class="first_a">Вікторина</a>
+    </li></div>
+    </ul>
+</div>
+<div class="quiz"><h1 class="text" id="timer">Затрачено часу: 0 с</h1>
+    <h1 class="text" id="truefalse"></h1>
+    <h1 class="text" id="question"></h1>
+    <button class="answers" id="answ1" onclick="answering(this.id)">Запитання 1</button>
+    <br>
+    <button class="answers" id="answ2" onclick="answering(this.id)">Запитання 2</button>
+    <br>
+    <button class="answers" id="answ3" onclick="answering(this.id)">Запитання 3</button>
+    <br>
+    <button class="answers" id="answ4" onclick="answering(this.id)">Запитання 4</button>
+    <br>
+    <button class="start1" id="returntostart" onclick="TimerOff()">Почати спочатку</button>
+    <br>
+    <button class="start" id="start" onclick="TimerOn()">Розпочати вікторину</button>
+</div>
+<div class="bottom">Чарівна Україна</div>
+</body>
+</html>

@@ -1,0 +1,238 @@
+body{
+    width: 1349px;
+    height: 2240px;
+}
+
+.top{
+    width: 1349px;
+    height: 50px;
+    background-color: #FFE4B5;
+    
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    font-family: "Gabriola";
+    font-size: 22px;
+}
+
+.first_a{
+    color: white;
+    margin-right: 5px;
+    margin-left: 5px;  
+}
+
+
+.button{
+    width: auto;
+    height: 50px;
+    background-color: #4E4E4E;
+    text-align: center;
+    float: left;
+    line-height: 45px;
+    
+}
+
+.second_a{
+    color: #4E4E4E;
+    margin-right: 5px;
+    margin-left: 5px; 
+
+}
+.button2{
+    width: auto;
+    height: 10px;
+    text-align: center;
+    float: left;
+    line-height: 45px;
+    transition: 0.5s;
+    
+    
+}
+
+.button2:hover .second_a{
+    color: white;
+
+}
+
+.button2:hover{
+    background-color: #4E4E4E;
+    height: 50px;
+}
+
+.middle {
+    width: 1100px;
+    height: 1500px;
+    background-color: whitesmoke;
+    margin-left: 124.5px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.bottom{
+    height: 40px;
+    width: auto;
+    background-color: #4682B4;
+    text-align: center;
+    position: relative;
+    padding-top: 20px;
+    color: white;
+    font-family: Segoe ui;
+}
+
+.osob_h1{
+    color: #4E4E4E;
+    font-family: "Gabriola";
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 0.3rem;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+
+.date{
+    font-family: "Merriweather", Georgia, serif;
+    color: gray;
+    padding-top: 25px;
+}
+
+.name{
+    font-family: "Gabriola";
+    font-size: 60px;
+    color: #4E4E4E;
+    letter-spacing: 0.3rem;
+}
+
+
+.oldest{
+    text-indent: 1.5em;
+    margin-top: 35px;
+    font-size: 18.2px;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-family: "Segoe ui";
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+.history_name{
+    text-align: left;
+    font-style: italic;
+    font-size: 20px;
+    margin-left: 140px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-left: 3px solid #1c7791;
+    padding-left: 20px;
+}
+
+.main_text{
+    text-indent: 1.5em;
+    font-size: 18.2px;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-family: "Segoe ui";
+    text-align: justify;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+
+.buttons{
+    width: 1349px;
+    height: 650px;
+    display: inline-flex;
+    justify-content: center
+}
+
+
+.menu1{
+    width: 300px;
+    height: 550px;
+    background-color: white;
+    border-style: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: 0.5s;
+    margin-right: 20px;
+    
+}
+
+.menu1:hover{
+    box-shadow: 0 1px 21px rgba(0,0,0,0.5);
+    transform: translate(0,-10px);
+    -webkit-transform: translate(0,-5px);
+    -o-transform: translate(0,-5px);
+    -moz-transform: translate(0,-5px);
+    cursor: url(ukraine.cur), pointer;
+    
+}
+
+.menu2{
+    width: 300px;
+    height: 560px;
+    background-color: white;
+    border-style: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: 0.5s;
+    margin-right: 20px;
+    
+}
+
+.menu2:hover{
+    box-shadow: 0 1px 21px rgba(0,0,0,0.5);
+    transform: translate(0,-10px);
+    -webkit-transform: translate(0,-5px);
+    -o-transform: translate(0,-5px);
+    -moz-transform: translate(0,-5px);
+    cursor: url(ukraine.cur), pointer;
+    
+}
+
+
+.menu3{
+    width: 300px;
+    height: 535px;
+    background-color: white;
+    border-style: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: 0.5s;
+}
+
+.menu3:hover{
+    box-shadow: 0 1px 21px rgba(0,0,0,0.5);
+    transform: translate(0,-10px);
+    -webkit-transform: translate(0,-5px);
+    -o-transform: translate(0,-5px);
+    -moz-transform: translate(0,-5px);
+    cursor: url(ukraine.cur), pointer;
+    
+}
+
+
+.button_name{
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4E4E4E;
+}
+
+.button_maintext{
+    font-family: 'Segoe UI';
+    color: gray;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;   
+    font-size: 16px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+   }
