@@ -114,37 +114,37 @@ h1{
 
 
 .region_kyiv{
-    background-image: url(https://spzh.news/mediafiles/iblock/73a/thumbs/73a96d44f19507224cde45180d4eb6df-tmb-720x411xfill.jpg);
+    background-image: url(images/kyiv.jpg);
 }
 
 .region_kirovograd{
-    background-image: url(https://wiki.cuspu.edu.ua/images/5/57/699140e9.jpg);
+    background-image: url(images/kirovograd.jpg);
 }
 
 .region_lugansk{
-    background-image: url(https://ua-travel.info/fotos/galery/112/1330.jpg);
+    background-image: url(images/lugansk.jpg);
     background-position-y: center;
 }
 
 .region_lviv{
-    background-image: url(https://ua.igotoworld.com/frontend/webcontent/images/tours/1935198_800x600_supercoolpics_06_16072011154443.jpg);
+    background-image: url(images/lviv.jpg);
 }
 
 .region_mykolayiv{
-    background-image: url(https://ua.igotoworld.com/frontend/webcontent/images/tours/1936302_800x600_original%281%29.jpg);
+    background-image: url(images/mykolayiv.jpg);
     background-position-y: center;
 }
 .region_odessa{
-    background-image: url(https://ua-travel.info/fotos/galery/116/6838.jpg);
+    background-image: url(images/odessa.jpg);
     background-position-y: center;
 }
 
 .region_poltava{
-    background-image: url(https://www.ukraine-is.com/wp-content/uploads/2016/10/%D0%93%D0%BE%D1%80%D0%B0-%D0%9F%D0%B8%D0%B2%D0%B8%D1%85%D0%B0.jpg);
+    background-image: url(images/poltava.jpg);
 }
 
 .region_riven{
-    background-image: url(https://www.polissya.net/images/stories/Lystopad12/tunnel_love.jpg);
+    background-image: url(images/riven.jpg);
 }
 
 
