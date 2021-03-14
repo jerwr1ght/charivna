@@ -75,6 +75,7 @@ h1{
     font-size: 145%;
     text-shadow: 2px 2px 2px black, 0 0 1em black;
     line-height: 85%; 
+    display: none;
 }
 
 .buttons_together{
@@ -102,9 +103,13 @@ h1{
     
 }
 
-.buttons_together div:hover {
+.buttons_together div:hover{
     box-shadow: 0 0 10px red;
     opacity: 1;
+}
+
+.buttons_together div:hover .region_name{
+    display: flex;
 }
 
 
@@ -177,6 +182,16 @@ h1{
         margin: 3%;
         line-height: 120%;
     }
+    .buttons_together div{
+        opacity: 1;
+    }
+    .buttons_together div:active{
+        box-shadow: 0 0 10px red;
+    }
+    
+    .buttons_together div .region_name{
+        display: flex;
+    }
 }
 
 @media screen and (min-width: 500px) and (max-width: 625px) {
@@ -198,6 +213,16 @@ h1{
     }
     .region_name{
         font-size: 180%;
+    }
+    .buttons_together div{
+        opacity: 1;
+    }
+    .buttons_together div:active{
+        box-shadow: 0 0 10px red;
+    }
+    
+    .buttons_together div .region_name{
+        display: flex;
     }
 }
 
@@ -221,6 +246,16 @@ h1{
     .region_name{
         font-size: 180%;
     }
+    .buttons_together div{
+        opacity: 1;
+    }
+    .buttons_together div:active{
+        box-shadow: 0 0 10px red;
+    }
+    
+    .buttons_together div .region_name{
+        display: flex;
+    }
 }
 
 @media screen and (min-width: 800px) and (max-width: 1000px) {
@@ -243,6 +278,16 @@ h1{
     .region_name{
         font-size: 180%;
     }
+    .buttons_together div{
+        opacity: 1;
+    }
+    .buttons_together div:active{
+        box-shadow: 0 0 10px red;
+    }
+    
+    .buttons_together div .region_name{
+        display: flex;
+    }
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1280px){
@@ -255,12 +300,22 @@ h1{
         line-height: 120%;
     }
     .region_name{
-        font-size: 160%;
+        font-size: 150%;
     }
     .bottom{
         position: fixed;
         bottom: 0;
         clear: both;
+    }
+    .buttons_together div{
+        opacity: 1;
+    }
+    .buttons_together div:active{
+        box-shadow: 0 0 10px red;
+    }
+    
+    .buttons_together div .region_name{
+        display: flex;
     }
 }
 
