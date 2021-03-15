@@ -144,7 +144,7 @@ img{
 }
 
 
-@media screen and (max-width: 500px) {
+@media all and (max-width: 500px) {
     .charivna_ukraina{
         line-height: 50px;
         font-size: 50px;
@@ -166,7 +166,7 @@ img{
     }
 }
 
-@media screen and (min-width: 500px) and (max-width: 625px) {
+@media all and (min-width: 500px) and (max-width: 625px) {
     .button1{
         width: 40%;
     }
@@ -178,7 +178,7 @@ img{
     }
 }
 
-@media screen and (min-width: 625px) and (max-width: 800px) {
+@media all and (min-width: 625px) and (max-width: 800px) {
     .button1{
         width: 40%;
     }
@@ -190,7 +190,7 @@ img{
     }
 }
 
-@media screen and (min-width: 800px) and (max-width: 1000px) {
+@media all and (min-width: 800px) and (max-width: 1000px) {
     .button1{
         width: 40%;
     }

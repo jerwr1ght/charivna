@@ -160,12 +160,13 @@ h1{
 }
 
 
+
 .middle{
     width: 100%;
     height: 100%;
 }
 
-@media screen and (max-width: 500px) {
+@media all and (max-width: 500px) {
     .top{
         justify-content: center;
     }
@@ -194,39 +195,7 @@ h1{
     }
 }
 
-@media screen and (min-width: 500px) and (max-width: 625px) {
-    .top{
-        justify-content: center;
-    }
-    .buttons_together{
-        margin-top: 0;
-        flex-direction: column;
-        align-items: center;
-    }
-    .buttons_together div {
-        width: 80%;
-        margin-bottom: 5%;
-    }
-    h1{
-        margin: 3%;
-        line-height: 120%;
-    }
-    .region_name{
-        font-size: 180%;
-    }
-    .buttons_together div{
-        opacity: 1;
-    }
-    .buttons_together div:active{
-        box-shadow: 0 0 10px red;
-    }
-    
-    .buttons_together div .region_name{
-        display: flex;
-    }
-}
-
-@media screen and (min-width: 625px) and (max-width: 800px) {
+@media all and (min-width: 500px) and (max-width: 625px) {
     .top{
         justify-content: center;
     }
@@ -258,7 +227,7 @@ h1{
     }
 }
 
-@media screen and (min-width: 800px) and (max-width: 1000px) {
+@media all and (min-width: 625px) and (max-width: 800px) {
     .top{
         justify-content: center;
     }
@@ -290,7 +259,39 @@ h1{
     }
 }
 
-@media screen and (min-width: 1000px) and (max-width: 1280px){
+@media all and (min-width: 800px) and (max-width: 1000px) {
+    .top{
+        justify-content: center;
+    }
+    .buttons_together{
+        margin-top: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .buttons_together div {
+        width: 80%;
+        margin-bottom: 5%;
+    }
+    h1{
+        margin: 3%;
+        line-height: 120%;
+    }
+    .region_name{
+        font-size: 180%;
+    }
+    .buttons_together div{
+        opacity: 1;
+    }
+    .buttons_together div:active{
+        box-shadow: 0 0 10px red;
+    }
+    
+    .buttons_together div .region_name{
+        display: flex;
+    }
+}
+
+@media all and (min-width: 1000px) and (max-width: 1280px){
     .buttons_together div {
         width: 20%;
         margin-bottom: 5%;
@@ -319,7 +320,7 @@ h1{
     }
 }
 
-@media screen and (min-width: 1280px){
+@media all and (min-width: 1280px){
     .bottom{
         position: fixed;
         clear: both;
