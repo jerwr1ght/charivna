@@ -7,14 +7,14 @@ function timer_start(){
 
 function TimerOn(){
     timer=setInterval(timer_start, 1000);
-    document.getElementById('returntostart').hidden=false;
+    document.getElementById('returntostart').style.display="flex";
     document.getElementById('answ1').style.display="flex";
     document.getElementById('answ2').style.display="flex"; 
     document.getElementById('answ3').style.display="flex";
     document.getElementById('answ4').style.display="flex";
     document.getElementById('start').style.display="none";
-    document.getElementById('question').style.display="flex";
-    document.getElementById('truefalse').style.display="flex";
+    document.getElementById('question').hidden=false;
+    document.getElementById('truefalse').hidden=false;
     New_questions()
     
 }
@@ -33,7 +33,7 @@ function New_questions(){
 }
 
 function TimerOff(){
-    document.getElementById('returntostart').hidden=true;
+    document.getElementById('returntostart').style.display="none";
     document.getElementById('answ1').style.display="none";
     document.getElementById('answ2').style.display="none"; 
     document.getElementById('answ3').style.display="none";
@@ -43,8 +43,8 @@ function TimerOff(){
     time=0;
     var text=document.getElementById('timer');
     text.innerHTML="Затрачено часу: "+time+" с";
-    document.getElementById('question').style.display="none";
-    document.getElementById('truefalse').style.display="none";
+    document.getElementById('question').hidden=true;
+    document.getElementById('truefalse').hidden=true;
     document.getElementById('truefalse').innerHTML=""
     question_number=0
     points=0
