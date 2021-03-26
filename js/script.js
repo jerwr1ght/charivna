@@ -8,13 +8,13 @@ function timer_start(){
 function TimerOn(){
     timer=setInterval(timer_start, 1000);
     document.getElementById('returntostart').hidden=false;
-    document.getElementById('answ1').style.display="inline-block";
-    document.getElementById('answ2').style.display="inline-block"; 
-    document.getElementById('answ3').style.display="inline-block";
-    document.getElementById('answ4').style.display="inline-block";
-    document.getElementById('start').hidden=true;
-    document.getElementById('question').hidden=false;
-    document.getElementById('truefalse').hidden=false;
+    document.getElementById('answ1').style.display="flex";
+    document.getElementById('answ2').style.display="flex"; 
+    document.getElementById('answ3').style.display="flex";
+    document.getElementById('answ4').style.display="flex";
+    document.getElementById('start').style.display="none";
+    document.getElementById('question').style.display="flex";
+    document.getElementById('truefalse').style.display="flex";
     New_questions()
     
 }
@@ -38,13 +38,13 @@ function TimerOff(){
     document.getElementById('answ2').style.display="none"; 
     document.getElementById('answ3').style.display="none";
     document.getElementById('answ4').style.display="none";
-    document.getElementById('start').hidden=false;
+    document.getElementById('start').style.display="flex";
     clearInterval(timer);
     time=0;
     var text=document.getElementById('timer');
     text.innerHTML="Затрачено часу: "+time+" с";
-    document.getElementById('question').hidden=true;
-    document.getElementById('truefalse').hidden=true;
+    document.getElementById('question').style.display="none";
+    document.getElementById('truefalse').style.display="none";
     document.getElementById('truefalse').innerHTML=""
     question_number=0
     points=0
@@ -52,7 +52,7 @@ function TimerOff(){
 }
 
 function start_hide(){
-    document.getElementById('returntostart').hidden=true;
+    document.getElementById('returntostart').style.display="none";
     document.getElementById('answ1').style.display="none";
     document.getElementById('answ2').style.display="none"; 
     document.getElementById('answ3').style.display="none";

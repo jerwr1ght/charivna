@@ -10,7 +10,6 @@ body{
     background-color: #FFE4B5;
     
 }
-
 .quiz{
     width: 1349px;
     height: 580px;
@@ -160,4 +159,25 @@ button{
 .start1:hover{
     background-color: white;
     color: #4E4E4E;
+}
+
+@media all and (max-width: 1000px) {
+    .top{
+        justify-content: center;
+    }
+
+    .bottom {
+        position: fixed;
+        clear: both;
+        bottom: 0;
+    }
+}
+
+
+@media all and (min-width: 1000px){
+    .bottom{
+        position: fixed;
+        clear: both;
+        bottom: 0;
+    }
 }
