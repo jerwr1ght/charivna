@@ -1,9 +1,0 @@
-@charset "utf-8";
-
-@font-face {
-    font-family: 'Gabriola';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Gabriola'), url('fonts/gabriola Font Download.woff') format('woff'),
-    local('Gabriola'), url('fonts/gabriola Font Download.tff') format('tff');
-    }
