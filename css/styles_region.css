@@ -225,6 +225,9 @@ h1{
             -ms-flex-pack: center;
                 justify-content: center;
     }
+    h1{
+        line-height: normal;
+    }
     .buttons_together{
         margin-top: 0;
         -webkit-box-orient: vertical;
@@ -259,6 +262,9 @@ h1{
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
+    }
+    h1{
+        line-height: normal;
     }
     .buttons_together{
         margin-top: 0;
@@ -298,6 +304,9 @@ h1{
             -ms-flex-pack: center;
                 justify-content: center;
     }
+    h1{
+        line-height: normal;
+    }
     .buttons_together{
         margin-top: 0;
         -webkit-box-orient: vertical;
@@ -336,6 +345,9 @@ h1{
             -ms-flex-pack: center;
                 justify-content: center;
     }
+    h1{
+        line-height: normal;
+    }
     .buttons_together{
         margin-top: 0;
         -webkit-box-orient: vertical;
@@ -369,6 +381,11 @@ h1{
 }
 
 @media all and (min-width: 1000px) and (max-width: 1280px){
+    .top{
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
     .buttons_together div {
         width: 20%;
         margin-bottom: 5%;

@@ -216,3 +216,10 @@ a{
                 justify-content: center;
     }
 }
+@media all and (min-width: 1000px) and (max-width: 1280px){
+    .top{
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+}

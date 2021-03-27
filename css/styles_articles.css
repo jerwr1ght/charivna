@@ -245,6 +245,9 @@ a{
             -ms-flex-pack: center;
                 justify-content: center;
     }
+    .osob_h1{
+        font-size: auto;
+    }
     .name{
         line-height: 100%;
     }
@@ -281,6 +284,9 @@ a{
             -ms-flex-pack: center;
                 justify-content: center;
     }
+    .osob_h1{
+        font-size: auto;
+    }
     .name{
         line-height: 100%;
     }
@@ -313,6 +319,9 @@ a{
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
+    }
+    .osob_h1{
+        font-size: auto;
     }
     .name{
         line-height: 10%;
@@ -347,6 +356,9 @@ a{
             -ms-flex-pack: center;
                 justify-content: center;
     }
+    .osob_h1{
+        font-size: auto;
+    }
     .name{
         line-height: 10%;
     }
@@ -379,6 +391,9 @@ a{
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
+    }
+    .osob_h1{
+        font-size: auto;
     }
     .name{
         line-height: 10%;
