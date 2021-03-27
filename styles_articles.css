@@ -1,0 +1,423 @@
+@charset "utf-8";
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    min-height: 100vh;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.top{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: #FFE4B5;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+}
+
+a{
+    text-decoration: none;
+    font-family: "Gabriola";
+    font-size: 150%;
+    color: white;
+}
+
+.button, .button2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;  
+    line-height: 100%; 
+}
+
+.button a, .button2 a {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.button {
+    background-color: #4E4E4E;
+}
+
+.button2 {
+    height: 50%;
+    -webkit-transition: height 0.5s, background-color 0.5s;
+    -o-transition: height 0.5s, background-color 0.5s;
+    transition: height 0.5s, background-color 0.5s;
+    background-position: bottom;
+}
+
+.button2:hover {
+    background-color: #4E4E4E;
+    height: 100%;
+}
+
+.button2 a{
+    color: #4E4E4E;
+    -webkit-transition: color 0.5s;
+    -o-transition: color 0.5s;
+    transition: color 0.5s;
+}
+.button2:hover a{
+    color: white;
+}
+
+.middle {
+    padding: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 80%;
+    height: 100%;
+    background-color: whitesmoke;
+    margin-top: 50px;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.date{
+    font-family: "Merriweather", Georgia, serif;
+    color: gray;
+}
+
+.name{
+    font-family: "Gabriola";
+    font-size: 40px;
+    color: #4E4E4E;
+    letter-spacing: 0.3rem;
+    line-height: 10%;
+}
+
+.middle img{
+    width: 100%;
+}
+
+.oldest{
+    text-indent: 1.5em;
+    margin-top: 25px;
+    font-size: 18px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: "Segoe ui";
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+.marked_text{
+    text-align: left;
+    font-style: italic;
+    font-size: 20px;
+    margin-left: 8%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-left: 3px solid #1c7791;
+    padding-left: 20px;
+}
+
+.main_text{
+    text-indent: 1.5em;
+    font-size: 18px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: "Segoe ui";
+    text-align: justify;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.buttons{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.menu{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: white;
+    border-style: none;
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    margin-right: 20px;
+    height: 100%;
+    margin-bottom: 50px;
+}
+
+.menu:hover{
+    -webkit-box-shadow: 0 1px 21px rgba(0,0,0,0.5);
+            box-shadow: 0 1px 21px rgba(0,0,0,0.5);
+    -ms-transform: translate(0,-10px);
+        transform: translate(0,-10px);
+    -webkit-transform: translate(0,-5px);
+    -o-transform: translate(0,-5px);
+    -moz-transform: translate(0,-5px);
+}
+
+.menu img{
+    width: 100%;
+}
+
+.button_name{
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4E4E4E;
+}
+
+.osob_h1{
+    color: #4E4E4E;
+    font-family: "Gabriola";
+    text-align: center;
+    margin-top: 5%;
+    font-size: 40px;
+    letter-spacing: 0.3rem;
+}
+
+.button_maintext{
+    font-family: 'Segoe UI';
+    color: gray;
+    text-align: left;   
+    font-size: 18px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.bottom{
+    height: 50px;
+    width: 100%;
+    background-color: #4682B4;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    font-family: Segoe ui;
+}
+
+@media all and (max-width: 500px) {
+    .top{
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .osob_h1{
+        font-size: 25px;
+    }
+    .name{
+        line-height: 100%;
+    }
+    .buttons{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .menu{
+        width: 80%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .oldest{
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .main_text{
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .marked_text{
+        margin-left: 12%;
+    }
+}
+
+@media all and (min-width: 500px) and (max-width: 625px) {
+    .top{
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .osob_h1{
+        font-size: 25px;
+    }
+    .name{
+        line-height: 100%;
+    }
+    .buttons{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .menu{
+        width: 80%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .oldest{
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .main_text{
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .marked_text{
+        margin-left: 10%;
+    }
+}
+
+@media all and (min-width: 625px) and (max-width: 800px) {
+    .top{
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .osob_h1{
+        font-size: 25px;
+    }
+    .name{
+        line-height: 10%;
+    }
+    .buttons{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .menu{
+        width: 50%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .oldest{
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .main_text{
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .marked_text{
+        margin-left: 8%;
+    }
+}
+
+@media all and (min-width: 800px) and (max-width: 1000px) {
+    .top{
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .osob_h1{
+        font-size: 25px;
+    }
+    .name{
+        line-height: 10%;
+    }
+    .buttons{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .menu{
+        width: 50%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .oldest{
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .main_text{
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .marked_text{
+        margin-left: 8%;
+    }
+}
+
+@media all and (min-width: 1000px) and (max-width: 1280px){
+    .top{
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .osob_h1{
+        font-size: 25px;
+    }
+    .name{
+        line-height: 10%;
+    }
+    .buttons{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .menu{
+        width: 50%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .oldest{
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .main_text{
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .marked_text{
+        margin-left: 8%;
+    }
+}
