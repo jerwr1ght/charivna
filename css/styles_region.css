@@ -1,0 +1,398 @@
+@charset "utf-8";
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    min-height: 100vh;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.top{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: #FFE4B5;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+}
+
+.main{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    font-family: "Gabriola";
+    font-size: 150%;
+    color: white;
+}
+
+.button, .button2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;  
+    line-height: 100%; 
+}
+
+.button a, .button2 a {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.button {
+    background-color: #4E4E4E;
+}
+
+.button2 {
+    height: 50%;
+    -webkit-transition: height 0.5s, background-color 0.5s;
+    -o-transition: height 0.5s, background-color 0.5s;
+    transition: height 0.5s, background-color 0.5s;
+}
+
+.button2:hover {
+    background-color: #4E4E4E;
+    height: 100%;
+}
+
+.button2 a{
+    color: #4E4E4E;
+    -webkit-transition: color 0.5s;
+    -o-transition: color 0.5s;
+    transition: color 0.5s;
+}
+.button2:hover a{
+    color: white;
+}
+
+h1{
+    color: #4E4E4E;
+    font-family: "Gabriola";
+    text-align: center;
+    font-size: 45px;
+    line-height: 10%;
+}
+
+.region_name{
+    font-family: "Gabriola";
+    color: white;
+    font-size: 145%;
+    text-shadow: 2px 2px 2px black, 0 0 1em black;
+    line-height: 85%; 
+    display: none;
+}
+
+.buttons_together{
+    margin-top: 1%;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+}
+
+.buttons_together div{
+    width: 21%;
+    height: 160px;
+    border-style: none;
+    background-size: cover;
+    -webkit-transition-property: opacity, -webkit-box-shadow;
+    transition-property: opacity, -webkit-box-shadow;
+    -o-transition-property: opacity, box-shadow;
+    transition-property: opacity, box-shadow;
+    transition-property: opacity, box-shadow, -webkit-box-shadow;
+    -webkit-transition-duration: 0.5s, 0.5s;
+         -o-transition-duration: 0.5s, 0.5s;
+            transition-duration: 0.5s, 0.5s;
+    opacity: 0.5;
+    -webkit-box-shadow: 0 0 10px black;
+            box-shadow: 0 0 10px black;
+    border: 5px solid white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    
+}
+
+.buttons_together div:hover{
+    -webkit-box-shadow: 0 0 10px red;
+            box-shadow: 0 0 10px red;
+    opacity: 1;
+}
+
+.buttons_together div:hover .region_name{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+.region_kyiv{
+    background-image: url(images/kyiv.jpg);
+}
+
+.region_kirovograd{
+    background-image: url(images/kirovograd.jpg);
+}
+
+.region_lugansk{
+    background-image: url(images/lugansk.jpg);
+    background-position-y: center;
+}
+
+.region_lviv{
+    background-image: url(images/lviv.jpg);
+}
+
+.region_mykolayiv{
+    background-image: url(images/mykolayiv.jpg);
+    background-position-y: center;
+}
+.region_odessa{
+    background-image: url(images/odessa.jpg);
+    background-position-y: center;
+}
+
+.region_poltava{
+    background-image: url(images/poltava.jpg);
+}
+
+.region_riven{
+    background-image: url(images/riven.jpg);
+}
+
+
+.bottom{
+    height: 50px;
+    width: 100%;
+    background-color: #4682B4;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    font-family: Segoe ui;
+}
+
+
+
+@media all and (max-width: 500px) {
+    .top{
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .buttons_together{
+        margin-top: 0;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .buttons_together div {
+        width: 80%;
+        margin-bottom: 5%;
+    }
+    .buttons_together div{
+        opacity: 1;
+    }
+    .buttons_together div:active{
+        -webkit-box-shadow: 0 0 10px red;
+                box-shadow: 0 0 10px red;
+    }
+    
+    .buttons_together div .region_name{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+@media all and (min-width: 500px) and (max-width: 625px) {
+    .top{
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .buttons_together{
+        margin-top: 0;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .buttons_together div {
+        width: 80%;
+        margin-bottom: 5%;
+    }
+    .region_name{
+        font-size: 180%;
+    }
+    .buttons_together div{
+        opacity: 1;
+    }
+    .buttons_together div:active{
+        -webkit-box-shadow: 0 0 10px red;
+                box-shadow: 0 0 10px red;
+    }
+    
+    .buttons_together div .region_name{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+@media all and (min-width: 625px) and (max-width: 800px) {
+    .top{
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .buttons_together{
+        margin-top: 0;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .buttons_together div {
+        width: 80%;
+        margin-bottom: 5%;
+    }
+    .region_name{
+        font-size: 180%;
+    }
+    .buttons_together div{
+        opacity: 1;
+    }
+    .buttons_together div:active{
+        -webkit-box-shadow: 0 0 10px red;
+                box-shadow: 0 0 10px red;
+    }
+    
+    .buttons_together div .region_name{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+@media all and (min-width: 800px) and (max-width: 1000px) {
+    .top{
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .buttons_together{
+        margin-top: 0;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .buttons_together div {
+        width: 80%;
+        margin-bottom: 5%;
+    }
+    .region_name{
+        font-size: 180%;
+    }
+    .buttons_together div{
+        opacity: 1;
+    }
+    .buttons_together div:active{
+        -webkit-box-shadow: 0 0 10px red;
+                box-shadow: 0 0 10px red;
+    }
+    
+    .buttons_together div .region_name{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+@media all and (min-width: 1000px) and (max-width: 1280px){
+    .buttons_together div {
+        width: 20%;
+        margin-bottom: 5%;
+    }
+    .region_name{
+        font-size: 140%;
+    }
+    .buttons_together div{
+        opacity: 1;
+    }
+    .buttons_together div:active{
+        -webkit-box-shadow: 0 0 10px red;
+                box-shadow: 0 0 10px red;
+    }
+    
+    .buttons_together div .region_name{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+@media all and (min-width: 1280px){
+    .region_name{
+        font-size: 150%;
+    }
+}
