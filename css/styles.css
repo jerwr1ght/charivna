@@ -21,7 +21,7 @@ body{
     background-image: url(https://blog.karpaty.ua/content/images/2014/%D0%B3%D1%80%D1%83%D0%B4/1366x768.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size:cover;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
